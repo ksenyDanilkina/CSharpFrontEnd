@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHtmlTask", "CSharpHtm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCSSTextTask", "CSharpCSSTextTask\CSharpCSSTextTask.csproj", "{385960CF-40BF-4646-BB0D-B95B3FF024D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCSSTableTask", "CSharpCSSTableTask\CSharpCSSTableTask.csproj", "{92033080-B8B7-43B6-9470-19CE5F6CD52A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{385960CF-40BF-4646-BB0D-B95B3FF024D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{385960CF-40BF-4646-BB0D-B95B3FF024D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385960CF-40BF-4646-BB0D-B95B3FF024D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92033080-B8B7-43B6-9470-19CE5F6CD52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92033080-B8B7-43B6-9470-19CE5F6CD52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92033080-B8B7-43B6-9470-19CE5F6CD52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92033080-B8B7-43B6-9470-19CE5F6CD52A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
