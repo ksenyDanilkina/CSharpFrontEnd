@@ -57,30 +57,25 @@ table {
 }
 
 .background {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     color: #737271;
-    overflow: auto;
     background-color: #FEEED6;
     height: 100%;
     width: 100%;
-    max-height: 470px;
     max-width: 847px;
+    font-size: 1.1em;
 }
 
 .heading {
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: 400;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.57em;
     padding-top: 5px;
 }
 
 .background {
-    padding-left: 12px;
-    padding-right: 6px;
-}
-
-.course_information {
-    font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .blue_text {
@@ -93,18 +88,21 @@ table {
 }
 
 .indent2 {
-    margin-top: 1em;
-    margin-bottom: -0.1em;
+    margin-top: 1.1em;
 }
 
 .line {
     text-decoration: line-through;
 }
 
+.indent2 p + p {
+    margin-top: 0.6em;
+}
+
 .main_text {
     text-align: justify;
-    margin-top: 0.8em;
-    font-size: 1em;
+    margin-top: 0.5em;
+    font-size: 0.95em;
     line-height: 1.5;
     word-spacing: 0.2em;
     text-indent: 0.8em;
