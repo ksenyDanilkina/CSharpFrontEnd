@@ -59,30 +59,26 @@ table {
 .table {
     max-width: 862px;
     width: 100%;
-    height: 100%;
     font-family: Arial, sans-serif;
     font-size: 1.4em;
     font-weight: 400;
     text-align: left;
     color: #3C3C3C;
+    background-color: #EEE;
 }
 
-.head th {
-    color: #FFFFFF;
-    background-color: #3498DB;
-    border: 0.7px solid #CCCCCC;
-    padding: 0.7em 0.5em;
-}
+    .table th {
+        color: #FFF;
+        background-color: #3498DB;
+        border: 1px solid #CCC;
+        padding: 0.7em 0.5em;
+    }
 
-.rows {
-    background-color: #EEEEEE;
-}
-
-.rows td {
-        border: 0.7px solid #CCCCCC;
+    .table td {
+        border: 1px solid #CCC;
         padding: 0.66em 0.5em;
     }
 
-.rows tr:nth-child(2n) {
-        background: #FFFFFF;
+    .table tr:nth-child(2n) {
+        background: #FFF;
     }
