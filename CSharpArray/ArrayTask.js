@@ -34,6 +34,7 @@ ATS.array2 = [];
         array.push(i);
         i++;
     }
+
     console.log(ATS.array2);
 })(ATS.array2);
 
@@ -44,6 +45,7 @@ ATS.array2 = [];
             list.push(Math.pow(item, 2));
         }
     });
+
     console.log(list);
 })(ATS.array2);
 
