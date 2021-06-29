@@ -38,17 +38,13 @@ ATS.array2 = [];
     console.log(ATS.array2);
 })(ATS.array2);
 
-(function(array) {
-    var list = [];
-    array.forEach(function(item) {
-        if (item % 2 === 0) {
-            list.push(Math.pow(item, 2));
-        }
+(function (array) {
+    var list = array.filter(function (item) {
+        return item % 2 === 0;
+    }).map(function (item) {
+        return Math.pow(item, 2);
     });
 
     console.log(list);
 })(ATS.array2);
-
-
-
 
